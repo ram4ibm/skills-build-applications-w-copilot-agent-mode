@@ -1,4 +1,4 @@
-from django.core.management.base import BaseCommand
+from django.core.management.base import BaseCommand # type: ignore
 from octofit_tracker.models import User, Team, Activity, Leaderboard, Workout
 from datetime import datetime
 
