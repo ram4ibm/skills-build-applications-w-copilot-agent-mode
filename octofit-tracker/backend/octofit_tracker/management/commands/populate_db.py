@@ -6,7 +6,7 @@ class Command(BaseCommand):
     help = 'Populate the octofit_db database with test data'
 
     def handle(self, *args, **kwargs):
-        # Test data
+        # Test data for users, teams, activities, leaderboards, and workouts
         users = [
             {"username": "user1", "email": "user1@example.com", "password": "password1", "date_joined": datetime(2025, 4, 8)},
             {"username": "user2", "email": "user2@example.com", "password": "password2", "date_joined": datetime(2025, 4, 8)},
